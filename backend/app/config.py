@@ -22,6 +22,9 @@ class Settings(BaseSettings):
     site_url: str
     resume_url: str
     qdrant_collection: str = "portfolio"
+    groq_model: str = "openai/gpt-oss-120b"
+    groq_reasoning_effort: str = "medium"   #/low, medium aur high
+    postgres_url: str = ""
 
     # Aage ke phases mein chahiye, abhi khali chalega
     github_token: SecretStr = SecretStr("")
