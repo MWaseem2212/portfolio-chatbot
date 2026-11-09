@@ -1,0 +1,27 @@
+# API
+fastapi
+uvicorn[standard]
+pydantic-settings
+python-dotenv
+sse-starlette
+
+# LangChain / LangGraph / vector store
+langchain
+langgraph
+langchain-groq
+langchain-qdrant
+langchain-community
+langchain-text-splitters
+qdrant-client
+
+# Loaders (website + resume PDF)
+httpx
+beautifulsoup4
+lxml
+pypdf
+
+# Dev
+pytest
+ruff
+
+fastembed
